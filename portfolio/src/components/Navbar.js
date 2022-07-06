@@ -14,15 +14,15 @@ function Navbar (){
                         </a>
                     </a>
                     <nav className=" font-medium text-white mb-2 sm:mb-0">
-                        <a href="#projects" className="ml-4 text-xl  hover:text-gray-400">
+                        <a href="#projects" className="ml-4 text-xl  hover:text-gray-400 duration-800 ease-in-out">
                             Projects
                         </a>
-                        <a href="#Contact" className="ml-4 text-xl  hover:text-gray-400">
+                        <a href="#Contact" className="ml-4 text-xl  hover:text-gray-400 duration-800 ease-in-out">
                             Contact
                         </a>
                     </nav>
                     <a href="https://github.com/ntraugh">
-                        <img src={GitHub} alt="GitHub" className="w-8 h-8 inline-flex hover:grow-2 ml-4 sm: mt-0"></img>
+                        <img src={GitHub} alt="GitHub" className="w-8 h-8 inline-flex hover:grow-2 ml-4 sm:mt-0"></img>
                     </a>
                     <a href="https://www.linkedin.com/in/nate-traugh-7bb18a20a/">
                         <img src={logo2} alt="LinkedIn" className="w-100 h-8 inline-flex ml-4 hover:grow-2 sm: mt-0"></img>

@@ -8,13 +8,11 @@ import Projects from  "./components/Projects";
 
 function App() {
   return (
-    <main className="text-gray-200 bg-gray-800">
+    <main className="text-gray-200 bg-gray-800 font-link">
       <Navbar />
       <About />
       <Projects />
       <Contact />
-
-
     </main>
   );
 }

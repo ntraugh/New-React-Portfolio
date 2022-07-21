@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo1 from "../images/avatar.svg"
+// import logo1 from "./images/avatar.svg"
 
 
 function About (){
@@ -23,10 +23,10 @@ function About (){
                         inline-flex text-white bg-blue-500 border-0 py-2 px-4 hover:bg-white hover:text-blue-500 ml-4 rounded">Contact Me</a>
                     </div>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img className="object-cover object-center"
                     alt="avatar" src={logo1}></img>
-                </div>
+                </div> */}
             </div>
 
 

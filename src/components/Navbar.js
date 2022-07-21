@@ -8,16 +8,14 @@ function Navbar (){
     return (
         <header className="bg-gray-800 sm:sticky top-0 z-10">
             <div className="container mx-auto flex flex-wrap p-5 flex-col sm:flex-row  items-center">
-                <a className="font-medium text-white mb-2 sm:mb-0">
+                    <nav className=" font-medium text-white mb-2 sm:mb-0">
                         <a href="#about" className= "text-xl  hover:text-gray-400">
                             About
                         </a>
-                    </a>
-                    <nav className=" font-medium text-white mb-2 sm:mb-0">
                         <a href="#projects" className="ml-4 text-xl  hover:text-gray-400 duration-800 ease-in-out">
                             Projects
                         </a>
-                        <a href="#Contact" className="ml-4 text-xl  hover:text-gray-400 duration-800 ease-in-out">
+                        <a href="#contact" className="ml-4 text-xl  hover:text-gray-400 duration-800 ease-in-out">
                             Contact
                         </a>
                     </nav>

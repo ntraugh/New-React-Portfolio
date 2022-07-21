@@ -1,7 +1,7 @@
 import mapLogo from "./images/map.PNG"
 import weather from "./images/newweather.PNG"
 import pass from "./images/pass3.PNG"
-import node from "./images/screenshot.PNG"
+import node from "./images/trailblaze.PNG"
 
 export const projects = [
     {
@@ -21,12 +21,12 @@ export const projects = [
         link: "https://ntraugh.github.io/Weather-App/",
       },
       {
-        title: "Javascript password",
-        subtitle: "Password Generator",
+        title: "Trailblazers",
+        subtitle: "Park Finder || Full Stack",
         description:
-          "Take away the hassle of having to think of a tough password with this javascript password generator.  Answer the prompts and watch as the app creates a very strong password for you.",
+          "Using Sequelize, MYSQL, handlebars.js, OAUTH, this app allows the user to search for a state and an activity and they will get parks in return. Users must login to see the favorite feature.",
         image: pass,
-        link: "https://ntraugh.github.io/Password-Generator/",
+        link: "https://intense-fjord-45584.herokuapp.com/",
       },
       {
         title: "Node employee generator",
